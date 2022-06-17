@@ -1,0 +1,44 @@
+.crossimage{
+    display: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.maincontainer{
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+.talkbtn{
+    margin-right: 30px;
+}
+.side_head{
+    font-weight: 600 !important;
+    font-size: 3.5rem !important;
+    color: #143250;
+    padding-right: 100px;
+}
+.side_content{
+    /* font-weight: 500 !important; */
+    font-size: 1rem;
+    color: #000000;
+}
+.row_content{
+    margin-top: 50px !important;
+}
+.contcontet{
+    background-color: #143250;
+   
+    padding: 3rem 3rem;
+}
+.contactimg1{
+    width: 380px;
+    height: 350px;
+}
+Form{
+    padding-right: 70px;
+}
