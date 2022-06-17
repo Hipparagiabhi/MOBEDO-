@@ -1,0 +1,65 @@
+.continar-fluid{
+    padding-left: 0px ;
+    padding-right: 0px ;
+}
+
+.maincontainer{
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.col_side_heading{
+    color:#143250;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 75px !important;
+}
+
+.col_side_content{
+    color:black;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 25px !important;
+    margin-top: 25px !important;
+}
+
+.button{
+    /* height:300px !important;
+    width: 300px !important; */
+}
+
+.video_content{
+    width:100%;
+    margin-top: 100px;
+    height:75%;
+}
+
+.col_heading_row{
+    color:#143250;
+    margin-top: 35px !important;
+}
+
+.col_content{
+    color:#6a747c;
+    font-size: 25px!important;
+    margin-top: 35px !important;
+}
+
+.learnbutton{
+    margin-top: 35px !important;
+}
+
+.slide1{
+    background-color: red;
+}
+
+.slide2{
+    background-color: blue;
+}
+
+.slide3{
+    background-color: black;
+}
+
+
+
