@@ -1,0 +1,144 @@
+.continar-fluid{
+    padding-left: 0px ;
+    padding-right: 0px ;
+}
+
+.maincontainer{
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.col_side_heading{
+    color:#143250;
+    font-weight: 600;
+    line-height: 1.2;
+    font-size: 54px !important;
+}
+
+.col_side_content{
+    color:black;
+    font-weight: 400;
+    line-height: 1.2;
+    font-size: 25px !important;
+    margin-top: 25px !important;
+}
+
+.button{
+    /* height:300px !important;
+    width: 300px !important; */
+}
+
+.video_content{
+    width:100%;
+    margin-top: 100px;
+    height:75%;
+}
+
+.col_heading_row{
+    color:#143250;
+    margin-top: 35px !important;
+}
+
+.col_content{
+    color:#6a747c;
+    font-size: 25px!important;
+    margin-top: 35px !important;
+}
+
+.learnbutton{
+    margin-top: 35px !important;
+}
+
+.slide1{
+    background-color: red;
+}
+
+.slide2{
+    background-color: blue;
+}
+
+.slide3{
+    background-color: black;
+}
+
+.circle{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#0047ab;
+}
+
+.consulting{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.startup{
+    margin-left: 48px;
+    margin-top: 15px;
+}
+
+.products{
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.bulb{
+    margin-left: 48px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100px;
+}
+
+.thumb{
+    margin-left: 48px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100px;
+}
+
+.clock{
+    margin-left: 37px;
+    margin-top: 31px;
+    height: 131px;
+    width: 121px;
+}
+
+
+.people{
+    margin-left: 37px;
+    margin-top: 31px;
+    height: 131px;
+    width: 121px;
+}
+
+.message{
+    margin-left: 48px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100px;
+}
+
+.head{
+    margin-top: 45px !important;
+}
+
+@media(max-width:767px){
+
+    .maincontainer{
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+    }
+
+    .col_side_heading{
+        color:#143250;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 30px !important;
+    }
+
+    .head{
+        margin-top: 45px !important;
+    }
+}
+
