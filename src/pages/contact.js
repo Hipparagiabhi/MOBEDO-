@@ -5,15 +5,19 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import {Link} from 'gatsby'
+import { Link } from 'gatsby'
 import Footer from "../components/Footer";
+import Header from '../components/Header';
+import Image from 'react-bootstrap/Image'
 
 
 export default function contact() {
     return (
         <>
+            <Header />
+            <Navbar />
             <Container fluid className="maincontainer"  >
-                <Navbar />
+
                 <Row className='row_content'>
                     <Col sm={7}>
                         <h1 className='side_head'>
@@ -31,7 +35,7 @@ export default function contact() {
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
                                 <Form.Label><strong>Name</strong> </Form.Label>
-                                <Form.Control type='Name' placeholder='What is your  Name'/>
+                                <Form.Control type='Name' placeholder='What is your  Name' />
                                 <Form.Label><strong>Email</strong>  </Form.Label>
                                 <Form.Control type="email" placeholder="What is your  email" />
                                 <Form.Label> <strong>Phone</strong>  </Form.Label>
@@ -44,26 +48,27 @@ export default function contact() {
                                 <Form.Control type="text" placeholder="What can we do for you?" />
                             </Form.Group>
                             <Link to="contact">
-                                 <Button variant="outline-primary">Send Away</Button>{' '}
+                                <Button variant="outline-primary">Send Away</Button>{' '}
                             </Link>
                         </Form>
                     </Col>
                     <Col sm={5}>
-                    <div className='contcontet'>
-                        <p>
-                            YOUR UNIFIER
-                        </p>
-                        <img className='contactimg1' src="/contactimg1.png" alt=""/>
-                        <h3>Joyce Buck</h3>
-                        <p>Managing Director</p>
-                        <div>
-                        Based on the information you provided, Joyce will be reaching out to you soon!
+                        <div className='contcontet'>
+                            <p className="contacth">
+                                YOUR UNIFIER
+                            </p>
+                            <Image className='contactimg1' src="/contactimg1.png" alt="" />
+                            {/* <img  Image className='contactimg1' src="/contactimg1.png" alt=""/> */}
+                            <h3 className="contactn">Joyce Buck</h3>
+                            <p className="contactd">Managing Director</p>
+                            <div className="contacti">
+                                Based on the information you provided, Joyce will be reaching out to you soon!
+                            </div>
                         </div>
-                    </div>
                     </Col>
                 </Row>
-                <Footer/>
             </Container>
+            <Footer />
         </>
 
     )

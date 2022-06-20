@@ -3,39 +3,47 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/global.css'
 import Button from 'react-bootstrap/Button';
-import {Link} from "gatsby"
+import { Link } from "gatsby"
+import Nav from 'react-bootstrap/Nav';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
- function Navitem() {
+function Navitem() {
   return (
-    <Navbar >
-        <Container fluid >
-          <Link to="/">
+    
+     <Navbar collapseOnSelect expand="lg" bg="light" variant="light"className="maincontainer">
+     <Container fluid >
+     <Link to="/">
           <Navbar.Brand >
-        <img src="/unify-logo.svg"
+            <img src="/unify-logo.svg"
               width="150px"
               height="100px"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
-            </Navbar.Brand>
-          </Link>
-        
-        <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
-          <Navbar className='talkbtn' >
-         <Link to="contact"> <Button variant="outline-primary">Talk to us</Button>{' '}
-         </Link> 
-          </Navbar>
-          <Navbar>
-            <div>
-             <img  className='hamimage' src="/ham.png" alt=""/>
-             <img className='crossimage' src="/cross.png" alt=""/>
-            </div>
-          </Navbar>
-        </Navbar.Collapse>
-      </Container>
-      </Navbar>
+          </Navbar.Brand>
+        </Link>
+       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+       <Navbar.Collapse id="responsive-navbar-nav">
+         <Nav className="me-auto">
+           
+         </Nav>
+         <Nav className='navitems'>
+         <Link to="/"><Nav  className='navlist'  >Home</Nav></Link>
+           <Link to="/about"><Nav className='navlist' >About us</Nav></Link>
+           <NavDropdown  className='navlist' title="Services" id="collasible-nav-dropdown">
+             <NavDropdown.Item to="#action/3.1">Services1</NavDropdown.Item>
+             <NavDropdown.Item to="#action/3.2">Services2 </NavDropdown.Item>
+             <NavDropdown.Item to="#action/3.3">Services3</NavDropdown.Item>
+             <NavDropdown.Item to="#action/3.4"> Services4</NavDropdown.Item>
+           </NavDropdown>
+           <Link to="/careers"><Nav className='navlist' >Careers</Nav></Link>
+           <Link to="/blog"><Nav  className='navlist' > Blog</Nav></Link>
+           <Link to="/contact"><Nav className='navlist'   > <Button variant="warning">CONTACT NOW</Button>{' '} </Nav></Link>
+         </Nav>
+       </Navbar.Collapse>
+     </Container>
+   </Navbar>
   )
 }
 export default Navitem;

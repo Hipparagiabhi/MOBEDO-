@@ -5,18 +5,20 @@ import Container from 'react-bootstrap/Container';
 // import Col from 'react-bootstrap/Col';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Header from "../components/Header";
 
-const AboutPage=() =>{
-    return(
-      <>
+const AboutPage = () => {
+  return (
+    <>
+      <Header />
+      <Navbar />
       <Container fluid className="maincontainer" >
-      <Navbar/>
-      <h1>
-        About us page
-      </h1>
-      <Footer/>
+        <h1>
+          About us page
+        </h1>
       </Container>
-      </>
-    )
-  }
+      <Footer />
+    </>
+  )
+}
 export default AboutPage
