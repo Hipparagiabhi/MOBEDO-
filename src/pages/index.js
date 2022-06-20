@@ -15,24 +15,24 @@ export default function Home() {
       <Row>
         <Col>
           <div className="col_side_heading">
-            <p>To unite is to come together. To unify is to make whole.</p>
+            <p>We continually strive to DO more, so our clients, our people annd society can BE more.</p>
           </div>
         </Col>
         <Col className="col_side_content">
-          <p>Unify Consulting is a management consulting firm designed to leap over boundaries to discover what lies beyond. Our model breaks the mold with a bespoke approach to every challenge. We’re passionate about co-creating solutions to unlock potential and propel your vision.</p>
+          <p>Mobedo Consulting are your strategically for driving growth through data-driven, people-powered, and action-accelerated solutions. We have shed the constraints of conventional consulting to unlock your company's potential</p>
           <Link to="about"><Button className="button" variant="outline-primary">About us</Button>{' '}</Link>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <Col>
           <video className="embed-responsive embed-responsive-16by9 video_content" controls>
             <source className="embed-responsive-item" src={samplevideo} type="video/mp4"></source>
           </video>
         </Col>
-      </Row>
+      </Row> */}
       <Row>
-        <div className="col_side_heading">
-          <p>Our expertise is our service.</p>
+        <div className="col_side_heading ">
+          <p className="head">Our expertise is our service.</p>
         </div>
         <div className="col_side_content">
           <p>
@@ -55,7 +55,7 @@ export default function Home() {
           <Link to="about"><Button className="learnbutton" variant="outline-primary">Learn More</Button>{' '}</Link>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <div className="col_side_heading">
           <p>What sets us apart.</p>
         </div>
@@ -73,6 +73,94 @@ export default function Home() {
         </Carousel>
         </Col>
         <Col></Col>
+      </Row> */}
+
+  
+      <Row className="justify-content-md-center">
+      <div className="col_side_heading head text-center">
+          <p>Our Offerings</p>
+        </div>
+    <Col sm xs lg="2" className="col_heading_row  text-center">
+      <div className="circle ">
+      <img className="bulb" src="../consulting.jpg" alt="this is innovation"></img>
+      </div>
+      <h3 className="consulting" >Consulting</h3>
+    </Col>
+    <Col sm xs lg="2" className="col_heading_row">
+    <div className="circle"></div>
+          <h3  className="startup">Start Up</h3>
+    </Col>
+    <Col sm xs lg="2" className="col_heading_row">
+    <div className="circle"></div>
+          <h3 className="products">Products</h3>
+    </Col>
+  </Row>
+      {/* <Row className="justify-content-md-center">
+      <div className="col_side_heading  text-center">
+          <p>Our Offerings</p>
+        </div>
+      
+        <Col sm className="col_heading_row  ">
+          <div className="circle"></div>
+          <h3 className="consulting" >Consulting</h3>
+        </Col>
+        <Col sm className="col_heading_row">
+          <div className="circle"></div>
+          <h3  className="startup">Start Up</h3>
+        </Col>
+        <Col sm className="col_heading_row">
+          <div className="circle"></div>
+          <h3 className="products">Products</h3>
+        </Col>
+       
+      </Row> */}
+    
+
+      <Row>
+      <div className="col_side_heading text-center head">
+          <p>Why Mobedo</p>
+        </div>
+        <p className=" text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quibusdam, amet quasi saepe sapiente rem nemo dolores quos, libero quas corporis repellat sequi eos commodi magnam alias ex. Aliquam, esse.
+        </p>
+        <p className=" text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quibusdam, amet quasi saepe sapiente rem nemo dolores quos, libero quas corporis repellat sequi eos commodi magnam alias ex. Aliquam, esse.
+        </p>
+        <Col sm className="col_heading_row ">
+          <div className="circle ">
+            <img className="bulb" src="../bulb.png" alt="this is innovation"></img>
+          </div>
+          <h3 className="consulting" >INNOVATION</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda nulla omnis laboriosam doloribus nobis velit ducimus magni labore voluptatum animi totam ipsam perferendis, quaerat saepe maiores rerum possimus necessitatibus quod!</p>
+        </Col>
+        <Col sm className="col_heading_row">
+          <div className="circle">
+          <img className="thumb" src="../thumb.png" alt="this is innovation"></img>
+          </div>
+          <h3 className="consulting" >QUALITY</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae fugit voluptates necessitatibus? Blanditiis sint quaerat provident ex vero laborum. Facilis eos esse tempore commodi similique! Quis ea omnis necessitatibus?</p>
+        </Col>
+        <Col sm className="col_heading_row">
+          <div className="circle">
+          <img className="clock" src="../clock.png" alt="this is innovation"></img>
+          </div>
+          <h3 className="consulting" >EXPERIENCE</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae fugit voluptates necessitatibus? Blanditiis sint quaerat provident ex vero laborum. Facilis eos esse tempore commodi similique! Quis ea omnis necessitatibus?</p>
+        </Col>
+        <Col sm className="col_heading_row">
+          <div className="circle">
+          <img className="people" src="../people.png" alt="this is innovation"></img>
+          </div>
+          <h3 className="consulting" >HAPPY CLIENTS</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae fugit voluptates necessitatibus? Blanditiis sint quaerat provident ex vero laborum. Facilis eos esse tempore commodi similique! Quis ea omnis necessitatibus?</p>
+        </Col>
+        <Col sm className="col_heading_row">
+          <div className="circle">
+          <img className="message" src="../message.png" alt="this is innovation"></img>
+          </div>
+          <h3 className="consulting" >SUPPORT</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit molestiae fugit voluptates necessitatibus? Blanditiis sint quaerat provident ex vero laborum. Facilis eos esse tempore commodi similique! Quis ea omnis necessitatibus?</p>
+        </Col>
       </Row>
     </Container>
   )

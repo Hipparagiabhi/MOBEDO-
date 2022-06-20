@@ -12,7 +12,7 @@
     color:#143250;
     font-weight: 600;
     line-height: 1.2;
-    font-size: 75px !important;
+    font-size: 54px !important;
 }
 
 .col_side_content{
@@ -61,5 +61,84 @@
     background-color: black;
 }
 
+.circle{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color:#0047ab;
+}
 
+.consulting{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.startup{
+    margin-left: 48px;
+    margin-top: 15px;
+}
+
+.products{
+    margin-left: 45px;
+    margin-top: 15px;
+}
+
+.bulb{
+    margin-left: 48px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100px;
+}
+
+.thumb{
+    margin-left: 48px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100px;
+}
+
+.clock{
+    margin-left: 37px;
+    margin-top: 31px;
+    height: 131px;
+    width: 121px;
+}
+
+
+.people{
+    margin-left: 37px;
+    margin-top: 31px;
+    height: 131px;
+    width: 121px;
+}
+
+.message{
+    margin-left: 48px;
+    margin-top: 52px;
+    height: 100px;
+    width: 100px;
+}
+
+.head{
+    margin-top: 45px !important;
+}
+
+@media(max-width:767px){
+
+    .maincontainer{
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+    }
+
+    .col_side_heading{
+        color:#143250;
+        font-weight: 700;
+        line-height: 1.2;
+        font-size: 30px !important;
+    }
+
+    .head{
+        margin-top: 45px !important;
+    }
+}
 
