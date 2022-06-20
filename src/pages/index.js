@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-import React from "react"
 
-export default function Home() {
-  return <div>Hello world!</div>
-=======
 import React from "react";
 import '../styles/global.css';
 import { Link } from "gatsby";
@@ -170,5 +165,5 @@ export default function Home() {
       </Row>
     </Container>
   )
->>>>>>> Abhijit
+
 }
