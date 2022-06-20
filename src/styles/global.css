@@ -12,6 +12,13 @@ a {
     margin-top: -5px;
     color: #0000008c;
 }
+.logo{
+    color:white;
+    height: 100px;
+    width: 150px;
+    font-size: 40px;
+    font-weight: 700;
+}
 .navitems{
     font-size: 20px;
     font-weight: 500;

@@ -17,12 +17,13 @@ export default function footer() {
                     <Col>
                         <Link to="/">
                             <Navbar.Brand  >
-                                <img src="/unify-logo.svg"
+                                {/* <img src="/mobedologo1.jpeg"
                                     width="150px"
                                     height="100px"
                                     className="d-inline-block align-top footerlogo"
                                     alt="React Bootstrap logo"
-                                />
+                                /> */}
+                                <p className="logo">MOBEDO</p>
                             </Navbar.Brand>
                         </Link>
                     </Col>

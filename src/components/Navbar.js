@@ -15,7 +15,7 @@ function Navitem() {
      <Container fluid >
      <Link to="/">
           <Navbar.Brand >
-            <img src="/unify-logo.svg"
+            <img src="/mobedologo1.jpeg"
               width="150px"
               height="100px"
               className="d-inline-block align-top"
