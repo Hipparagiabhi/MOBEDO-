@@ -7,13 +7,18 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-import samplevideo from "../videos/samplevideo.mp4";
-import Carousel from 'react-bootstrap/Carousel';
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+
 
 export default function Home() {
   return (
+    <>
+    <Header/>
+    <Navbar/>
     <Container fluid className="maincontainer">
-      <Row>
+      <Row className="row_content">
         <Col>
           <div className="col_side_heading">
             <p>We continually strive to DO more, so our clients, our people annd society can BE more.</p>
@@ -164,6 +169,8 @@ export default function Home() {
         </Col>
       </Row>
     </Container>
+    <Footer/>
+    </>
   )
 
 }
