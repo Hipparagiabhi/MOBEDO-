@@ -28,51 +28,48 @@ export default function footer() {
                         </Link>
                     </Col>
                 </Row>
-                <Row className='linkblock'>
+                <Row className='linkblock footerpage'>
                     <Col sm={6}>
                         <div className='linkdiv' >
                             <h5 className='qlinks'>
-                                Quick links
+                                Contact Us
                             </h5>
                             <ul className='links'>
                                 <li>
-                                    Home
+                                    +91-9894512313
                                 </li>
                                 <li>
-                                    About us
+                                    +91-9894512313
                                 </li>
-                                <li>
-                                    Careers
-                                </li>
-                                <li>
-                                    Blog
-                                </li>
-                                <li>
-                                    Contact us
-                                </li>
+
                             </ul>
                         </div>
                     </Col>
                     <Col sm={6}>
                         <div className='servicediv' >
                             <h5 className='serlinks'>
-                                Services
+                                Privacy Policy
                             </h5>
                             <ul className='slinks'>
                                 <li>
-                                    Web Development
+
+                                    dummy
                                 </li>
                                 <li>
-                                    Mobile Development
+
+                                    dummy
                                 </li>
                                 <li>
-                                    .Net Development
+
+                                    dummy
                                 </li>
                                 <li>
-                                    Software Testing
+
+                                    dummy
                                 </li>
                                 <li>
-                                    RPA Development
+
+                                    dummy
                                 </li>
                             </ul>
                         </div>
@@ -81,53 +78,38 @@ export default function footer() {
 
 
                 <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end socialmediafooter">
+                <Navbar.Collapse className="justify-content-end socialmediafooter footerpage">
                     <Navbar className='socialmediafooter' >
-                        <ul>
-                            <li>
-                                <div className='find'>
-                                    <h6>Find us on</h6>
-                                </div>
-                            </li>
-                            <li>
-                                <Row >
-                                    <Col>
-                                        <div>
-                                            <img src="/fb2.png" width="25px" height="25px" alt="" />
-                                        </div>
-                                    </Col>
-                                    <Col>
-                                        <div>
-                                            <img src="/linkedin.png" width="20px" height="20px" alt="" />
-                                        </div>
-                                    </Col>
-                                    <Col>
-                                        <div>
-                                            <img src="/twitter.png" width="25px" height="25px" alt="" />
-                                        </div>
-                                    </Col>
-                                    <Col>
-                                        <div>
-                                            <img src="/youtube1.png" width="25px" height="25px" alt="" />
-                                        </div>
-                                    </Col>
-                                </Row>
-                            </li>
-                            <div className='contactblock'>
-                                <h5 className='contact'> Contact us </h5>
-                                <ul className='cnum'>
-                                    <li>
-                                        +91-9894512313
-                                    </li>
-                                    <li>
-                                        +91-9894512313
-                                    </li>
-                                </ul>
+                        <div className='find'>
+                            <h6>Find us on</h6>
+                            <ul className='socialmediaicons'>
+                                <li>
 
-                            </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="/fb2.png" width="25px" height="25px" alt="" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="/linkedin.png" width="20px" height="20px" alt="" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="/twitter.png" width="25px" height="25px" alt="" />
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        <img src="/youtube1.png" width="25px" height="25px" alt="" />
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
 
 
-                        </ul>
 
 
                     </Navbar>

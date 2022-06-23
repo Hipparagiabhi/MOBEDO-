@@ -8,6 +8,71 @@
     padding-left: 80px !important;
     padding-right: 80px !important;
 }
+.socialmediaicons{
+    text-align: center;
+}
+
+.footerpage{
+    font-family: poppins;
+}
+.contactpage{
+    font-family: poppins;
+}
+.headerpage{
+    font-family: poppins;
+}
+.Navbarpage{
+    font-family: poppins;
+}
+/* css for careers page */
+.careerspage{
+    background:#f5f6f8 ;
+    font-family: poppins;
+}
+.exp1,.exp2,.exp3{
+    color: #F4B41A;
+    font-size: 11px;
+}
+.openingRow{
+    padding: 0px 200px;
+}
+.ctitle,.cbodyo,.cbodyt{
+    text-align: center;
+}
+.otitle{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: poppins;
+}
+.imgRow{
+    margin-bottom: 5%;
+}
+.ulitems li{
+    background: url(/list-icon.png) no-repeat left center;
+    text-align: left;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+.vTitle,.dtitle{
+    color: #342566;
+    font-weight: 700;
+}
+
+.openingRowN{
+    width: 64%;
+    margin-top: 4%;
+    padding: 0px 200px;
+    /* margin-bottom: 4%; */
+}
+.dotCol,.virusCol,.devCol{
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 15px
+}
+.openingRow.row {
+    gap: 5%;
+}
+/* end of career page */
 
 .col_side_heading{
     color:#143250;
@@ -207,6 +272,9 @@ a {
 
 .row_content {
     margin-top: 50px !important;
+}
+.row_content_form{
+padding-left:20px;
 }
 
 .contcontet {

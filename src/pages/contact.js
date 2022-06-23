@@ -16,7 +16,7 @@ export default function contact() {
         <>
             <Header />
             <Navbar />
-            <Container fluid className="maincontainer"  >
+            <Container fluid className="maincontainer contactpage"  >
 
                 <Row className='row_content'>
                     <Col sm={7}>
@@ -30,7 +30,8 @@ export default function contact() {
                         </p>
                     </Col>
                 </Row>
-                <Row className='row_content' >
+            </Container>
+                <Row className='row_content row_content_form contactpage ' >
                     <Col sm={7}>
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -67,7 +68,6 @@ export default function contact() {
                         </div>
                     </Col>
                 </Row>
-            </Container>
             <Footer />
         </>
 

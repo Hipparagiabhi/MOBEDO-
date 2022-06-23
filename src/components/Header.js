@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col';
 
 export default function Header() {
     return (
-        <Navbar className='headerbg maincontainer'>
+        <Navbar className='headerbg maincontainer headerpage'>
             <Container fluid className="" >
                 <Navbar.Brand >
                     <Row>

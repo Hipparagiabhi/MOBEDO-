@@ -11,8 +11,8 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navitem() {
   return (
     
-     <Navbar collapseOnSelect expand="lg" bg="light" variant="light"className="maincontainer">
-     <Container fluid >
+     <Navbar collapseOnSelect expand="lg" bg="#ffffff" variant="light"className="maincontainer">
+     <Container fluid className='Navbarpage'>
      <Link to="/">
           <Navbar.Brand >
             <img src="/mobedologo1.jpeg"
