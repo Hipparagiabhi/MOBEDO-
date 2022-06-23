@@ -4,6 +4,7 @@
     padding-right: 0px ;
 }
 
+/* home page CSS starts */
 .maincontainer{
     padding-left: 80px !important;
     padding-right: 80px !important;
@@ -50,17 +51,7 @@
     margin-top: 35px !important;
 }
 
-.slide1{
-    background-color: red;
-}
 
-.slide2{
-    background-color: blue;
-}
-
-.slide3{
-    background-color: black;
-}
 
 .circle{
     width:200px;
@@ -124,7 +115,80 @@
     margin-top: 45px !important;
 }
 
+/* home page CSS ends */
+
+/* about us CSS starts */
+.aboutus{
+    height: 250px;
+    width: 250px;
+}
+
+.ourmission{
+    height: 250px;
+    width: 465px;
+    margin-left: 154px;
+}
+
+.yellowdot1{
+    margin-top: -60px;
+}
+
+.aboutus_secondrow{
+    font-size: 16px;
+    color: #868686;
+}
+
+.row_content_aboutus{
+    background-color: #f7f8f9;
+   
+}
+
+.ourvision{
+    height: 350px;
+    width: 350px;
+}
+
+.banner{
+    background-color: #0047ab; 
+    color:white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.banner-content{
+    margin-left: 154px;
+    text-align: right;
+    font-size: 25px;
+}
+
+.exclametry-mark{
+    height: 105px;
+    width: 130px;
+    margin-left: -32px;
+}
+
+.email-about-us{
+    margin-left: -264px;
+}
+
+.phone-about-us{
+    margin-left: -264px; 
+}
+
+.btn1{
+    margin-top: 11px !important;
+    margin-left: -264px;
+}
+
+.font{
+    font-family:"poppins";
+}
+
+/* about us CSS ends */
 @media(max-width:767px){
+
+    /* home page mobile css starts */
 
     .maincontainer{
         padding-left: 45px !important;
@@ -141,6 +205,9 @@
     .head{
         margin-top: 45px !important;
     }
+
+    
+    /* home page mobile css ends */
 }
 
 
