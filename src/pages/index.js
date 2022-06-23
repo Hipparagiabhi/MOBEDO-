@@ -17,7 +17,7 @@ export default function Home() {
     <>
     <Header/>
     <Navbar/>
-    <Container fluid className="maincontainer">
+    <Container fluid className="maincontainer font">
       <Row className="row_content">
         <Col>
           <div className="col_side_heading">
