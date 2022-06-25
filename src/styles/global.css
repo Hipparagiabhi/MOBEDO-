@@ -273,6 +273,26 @@
 
     
     /* home page mobile css ends */
+
+
+    /* careers page mobile css  start*/
+    .openingRow{
+        padding: 0px 20px;
+    }
+    .openingRowN{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .openingRowN.row {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .virusCol{
+        margin-top: 5%;
+
+    }
+    /* careers page mobile css end */
+
 }
 
 
