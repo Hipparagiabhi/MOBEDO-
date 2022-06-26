@@ -6,16 +6,16 @@ import Col from 'react-bootstrap/Col';
 
 export default function Header() {
     return (
-        <Navbar className='headerbg maincontainer headerpage'>
+        <Navbar className='headerbg fixed-top headerpage'>
             <Container fluid className="" >
                 <Navbar.Brand >
-                    <Row>
-                        <Col>
+                    <Row className="emailRow">
+                        <Col className='emailCol'>
                             <div className='email'>
                                 <img src="/mail.png" width="25px" height="25px" alt="" /> info@mobedo.com
                             </div>
                         </Col>
-                        <Col>
+                        <Col className='phoneCol'>
                             <div className='phone'>
                                 <img src="/phone.png"  width="25px"  height="25px" alt="" /> 01897465226
                             </div>

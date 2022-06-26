@@ -11,7 +11,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 function Navitem() {
   return (
     
-     <Navbar collapseOnSelect expand="lg" bg="#ffffff" variant="light"className="maincontainer">
+     <Navbar collapseOnSelect expand="lg" bg="#ffffff"  variant="light" className="maincontainer sticky-top">
      <Container fluid className='Navbarpage'>
      <Link to="/">
           <Navbar.Brand >

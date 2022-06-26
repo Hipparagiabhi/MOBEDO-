@@ -1,160 +1,117 @@
-
-.continar-fluid{
-    padding-left: 0px ;
-    padding-right: 0px ;
+.continar-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.sticky-top{
+    border-bottom: 1px solid #cccccc;
+    top: 30px ;
 }
 
 /* home page CSS starts */
-.maincontainer{
+.maincontainer {
     padding-left: 80px !important;
     padding-right: 80px !important;
 }
-.socialmediaicons{
+
+.socialmediaicons {
     text-align: center;
 }
 
-.footerpage{
+.footerpage {
     font-family: poppins;
-}
-.contactpage{
-    font-family: poppins;
-}
-.headerpage{
-    font-family: poppins;
-}
-.Navbarpage{
-    font-family: poppins;
-}
-/* css for careers page */
-.careerspage{
-    background:#f5f6f8 ;
-    font-family: poppins;
-}
-.exp1,.exp2,.exp3{
-    color: #F4B41A;
-    font-size: 11px;
-}
-.openingRow{
-    padding: 0px 200px;
-}
-.ctitle,.cbodyo,.cbodyt{
-    text-align: center;
-}
-.otitle{
-    text-align: center;
-    margin-bottom: 2%;
-    font-family: poppins;
-}
-.imgRow{
-    margin-bottom: 5%;
-}
-.ulitems li{
-    background: url(/list-icon.png) no-repeat left center;
-    text-align: left;
-    padding-left: 35px;
-    margin-bottom: 20px;
-}
-.vTitle,.dtitle{
-    color: #342566;
-    font-weight: 700;
 }
 
-.openingRowN{
-    width: 64%;
-    margin-top: 4%;
-    padding: 0px 200px;
-    /* margin-bottom: 4%; */
+.contactpage {
+    font-family: poppins;
 }
-.dotCol,.virusCol,.devCol{
-    background-color: #ffffff;
-    padding: 20px 20px;
-    border-radius: 15px
-}
-.openingRow.row {
-    gap: 5%;
-}
-/* end of career page */
 
-.col_side_heading{
-    color:#143250;
+.headerpage {
+    font-family: poppins;
+}
+
+.Navbarpage {
+    font-family: poppins;
+}
+.col_side_heading {
+    color: #143250;
     font-weight: 600;
     line-height: 1.2;
     font-size: 54px !important;
 }
 
-.col_side_content{
-    color:black;
+.col_side_content {
+    color: black;
     font-weight: 400;
     line-height: 1.2;
     font-size: 25px !important;
     margin-top: 25px !important;
 }
 
-.button{
+.button {
     /* height:300px !important;
     width: 300px !important; */
 }
 
-.video_content{
-    width:100%;
+.video_content {
+    width: 100%;
     margin-top: 100px;
-    height:75%;
+    height: 75%;
 }
 
-.col_heading_row{
-    color:#143250;
+.col_heading_row {
+    color: #143250;
     margin-top: 35px !important;
 }
 
-.col_content{
-    color:#6a747c;
-    font-size: 25px!important;
+.col_content {
+    color: #6a747c;
+    font-size: 25px !important;
     margin-top: 35px !important;
 }
 
-.learnbutton{
+.learnbutton {
     margin-top: 35px !important;
 }
 
 
 
-.circle{
-    width:200px;
+.circle {
+    width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color:#0047ab;
+    background-color: #0047ab;
 }
 
-.consulting{
+.consulting {
     margin-left: 30px;
     margin-top: 15px;
 }
 
-.startup{
+.startup {
     margin-left: 48px;
     margin-top: 15px;
 }
 
-.products{
+.products {
     margin-left: 45px;
     margin-top: 15px;
 }
 
-.bulb{
+.bulb {
     margin-left: 48px;
     margin-top: 52px;
     height: 100px;
     width: 100px;
 }
 
-.thumb{
+.thumb {
     margin-left: 48px;
     margin-top: 52px;
     height: 100px;
     width: 100px;
 }
 
-.clock{
+.clock {
     margin-left: 37px;
     margin-top: 31px;
     height: 131px;
@@ -162,139 +119,264 @@
 }
 
 
-.people{
+.people {
     margin-left: 37px;
     margin-top: 31px;
     height: 131px;
     width: 121px;
 }
 
-.message{
+.message {
     margin-left: 48px;
     margin-top: 52px;
     height: 100px;
     width: 100px;
 }
 
-.head{
+.head {
     margin-top: 45px !important;
 }
 
 /* home page CSS ends */
 
+
+
+
 /* about us CSS starts */
-.aboutus{
+.aboutus {
     height: 250px;
     width: 250px;
 }
 
-.ourmission{
+.ourmission {
     height: 250px;
     width: 465px;
     margin-left: 154px;
 }
 
-.yellowdot1{
+.yellowdot1 {
     margin-top: -60px;
 }
 
-.aboutus_secondrow{
+.aboutus_secondrow {
     font-size: 16px;
     color: #868686;
 }
 
-.row_content_aboutus{
+.row_content_aboutus {
     background-color: #f7f8f9;
-   
+
 }
 
-.ourvision{
+.ourvision {
     height: 350px;
     width: 350px;
 }
 
-.banner{
-    background-color: #0047ab; 
-    color:white;
+.banner {
+    background-color: #0047ab;
+    color: white;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+
 }
 
-.banner-content{
+.banner-content {
     margin-left: 154px;
     text-align: right;
     font-size: 25px;
 }
 
-.exclametry-mark{
+.exclametry-mark {
     height: 105px;
     width: 130px;
     margin-left: -32px;
 }
 
-.email-about-us{
+.email-about-us {
     margin-left: -264px;
 }
 
-.phone-about-us{
-    margin-left: -264px; 
+.phone-about-us {
+    margin-left: -264px;
 }
 
-.btn1{
+.btn1 {
     margin-top: 11px !important;
     margin-left: -264px;
 }
 
-.font{
-    font-family:"poppins";
+.font {
+    font-family: "poppins";
 }
 
 /* about us CSS ends */
-@media(max-width:767px){
+
+
+/* css for careers page */
+.careerspage {
+    background: #f5f6f8;
+    font-family: poppins;
+    padding-top: 50px;
+
+}
+
+.exp1,
+.exp2,
+.exp3 {
+    color: #F4B41A;
+    font-size: 11px;
+}
+
+.openingRow {
+    padding: 0px 200px;
+}
+
+.ctitle,
+.cbodyo,
+.cbodyt {
+    text-align: center;
+}
+
+.otitle {
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: poppins;
+}
+
+.imgRow {
+    margin-bottom: 5%;
+}
+
+.ulitems li {
+    background: url(/list-icon.png) no-repeat left center;
+    text-align: left;
+    padding-left: 35px;
+    margin-bottom: 20px;
+}
+
+.vTitle,
+.dtitle {
+    color: #342566;
+    font-weight: 700;
+}
+
+.openingRowN {
+    width: 64%;
+    margin-top: 4%;
+    padding: 0px 200px;
+    /* margin-bottom: 4%; */
+}
+
+.dotCol,
+.virusCol,
+.devCol {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    border-radius: 15px
+}
+
+.openingRow.row {
+    gap: 5%;
+}
+
+/* end of career page */
+@media(max-width:767px) {
+
+    /* navbar css start */
+    .sticky-top{
+        padding: 0px !important;
+    }
+    /* navbar css start */
 
     /* home page mobile css starts */
 
-    .maincontainer{
-        padding-left: 45px !important;
-        padding-right: 45px !important;
+    .maincontainer {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
     }
 
-    .col_side_heading{
-        color:#143250;
+    .col_side_heading {
+        color: #143250;
         font-weight: 700;
         line-height: 1.2;
         font-size: 30px !important;
     }
 
-    .head{
+    .head {
         margin-top: 45px !important;
     }
 
-    
+
     /* home page mobile css ends */
 
 
     /* careers page mobile css  start*/
-    .openingRow{
+    .openingRow {
         padding: 0px 20px;
     }
-    .openingRowN{
+
+    .openingRowN {
         width: 100%;
         padding: 0px 10px;
     }
+
     .openingRowN.row {
         margin-left: 0px;
         margin-right: 0px;
     }
-    .virusCol{
+
+    .virusCol {
         margin-top: 5%;
 
     }
+
     .socialmediafooter {
         padding-right: 0px !important;
     }
+
     /* careers page mobile css end */
+
+    /* headerpage css mobile view start*/
+    .emailCol {
+        margin-right: 22px;
+        width: 50%;
+
+    }
+
+    /* headerpage css mobile view end*/
+    /* footerpage css mobile view start*/
+    .footerbg {
+        padding: 0px 10px !important;
+    }
+
+    /* footerpage css mobile view end*/
+    /* contactpage css mobile view start*/
+    .row_content_form {
+        margin: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .dirCol {
+        padding: 0px !important;
+        margin-top: 20px;
+    }
+    .side_head{
+        padding-right: 0px !important;
+        font-size: 1.5rem !important;
+    }
+    .row_content {
+        margin-top: 25px !important;
+    }
+    .maincontainer.contactpage.container-fluid {
+        padding: 0px 20px !important;
+    }
+    .contactpage {
+        margin-top: 50px;
+    }
+    
+    /* contactpage css mobile view end*/
+
 
 }
 
@@ -307,29 +389,38 @@ a {
     text-decoration: none;
     color: #0000008c;
 }
-.btn-warning{
+
+.btn-warning {
     font-size: 18px;
     font-weight: 500;
     margin-top: -5px;
     color: #0000008c;
 }
-.logo{
-    color:white;
+
+.logo {
+    color: white;
     height: 100px;
     width: 150px;
     font-size: 40px;
     font-weight: 700;
 }
-.navitems{
+
+.navitems {
     font-size: 20px;
     font-weight: 500;
     color: #0000008c;
 }
-.navlist{
+
+.navlist {
     padding: 10px;
 }
-#collasible-nav-dropdown{
+
+#collasible-nav-dropdown {
     margin-top: -8px;
+}
+
+.maincontainer {
+    background-color: white;
 }
 
 .container {
@@ -349,7 +440,7 @@ a {
 
 .side_head {
     font-weight: 600 !important;
-    font-size: 3.5rem !important;
+    font-size: 3.5rem ;
     color: #143250;
     padding-right: 100px;
 }
@@ -361,10 +452,11 @@ a {
 }
 
 .row_content {
-    margin-top: 50px !important;
+    margin-top: 50px ;
 }
-.row_content_form{
-padding-left:20px;
+
+.row_content_form {
+    padding-left: 20px;
 }
 
 .contcontet {
@@ -372,13 +464,17 @@ padding-left:20px;
 
     padding: 3rem 3rem;
 }
-.contacth,.contactn,.contactd{
+
+.contacth,
+.contactn,
+.contactd {
     color: #E67E22;
     font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
 }
-.contacti{
+
+.contacti {
     color: white;
 }
 

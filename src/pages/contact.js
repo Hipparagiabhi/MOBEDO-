@@ -24,7 +24,7 @@ export default function contact() {
                             We want to hear from you.
                         </h1>
                     </Col>
-                    <Col sm={5}  >
+                    <Col sm={5}   >
                         <p className='side_content'>
                             Whether you’re interested in our work or interested in working with us (or both) we’d love to connect. Fill out your information below and we’ll get you in touch with one of our real, live Unifiers. No robots here!
                         </p>
@@ -53,7 +53,7 @@ export default function contact() {
                             </Link>
                         </Form>
                     </Col>
-                    <Col sm={5}>
+                    <Col sm={5} className="dirCol">
                         <div className='contcontet'>
                             <p className="contacth">
                                 YOUR UNIFIER
